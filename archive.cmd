@@ -1,0 +1,1 @@
+FOR %%G in ("*.csv") DO node C:\Logs\stream_to_db %%G
