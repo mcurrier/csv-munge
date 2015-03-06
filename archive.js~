@@ -29,7 +29,7 @@ for (var I in files) {
 		newFile = path.basename(files[I], '.csv');	// strip the file extension
 		newFile = newFile.replace(/\d/g, '');	// strip numeric characters
 
-		thisTime = stats.mtime || new Date();	// if the modify-time isn't available then use NOW
+		thisTime = stats.mtime || new Date();	// if the modify-time isn't available then use an arbitrary default
 
 		newFile += thisTime.getUTCDate().toString() + '.csv';
 
