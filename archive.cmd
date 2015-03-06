@@ -1,1 +1,1 @@
-node archive Z:\ .\External
+node c:\logs\archive Z:\ c:\logs\External
